@@ -5,7 +5,6 @@ import numpy as np
 import lasio
 import matplotlib.pyplot as plt
 import seaborn as sns
-
 import welly
 from scipy.optimize import curve_fit
 import statsmodels.api as sm
