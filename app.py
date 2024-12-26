@@ -15,7 +15,6 @@ import lightgbm as lgb
 from sklearn.ensemble import HistGradientBoostingRegressor
 from welly import Well
 from welly import read_las
-import pkg_resources
 # Sidebar
 st.sidebar.image("logo SPE.jpg")
 st.sidebar.title("**⚒️Main Menu⚒️**")
