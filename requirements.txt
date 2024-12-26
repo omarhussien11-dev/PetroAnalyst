@@ -1,0 +1,12 @@
+lasio==0.31
+lightgbm==4.5.0
+matplotlib==3.10.0
+numpy==2.2.1
+pandas==2.2.3
+scikit_learn==1.6.0
+scipy==1.14.1
+seaborn==0.13.2
+statsmodels==0.14.2
+streamlit==1.41.1
+welly==0.5.2
+glob
