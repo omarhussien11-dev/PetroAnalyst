@@ -9,4 +9,3 @@ seaborn
 statsmodels
 streamlit
 welly
-pkg_resources
