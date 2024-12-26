@@ -9,3 +9,4 @@ seaborn
 statsmodels
 streamlit
 welly
+setuptools
