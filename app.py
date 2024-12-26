@@ -5,7 +5,7 @@ import numpy as np
 import lasio
 import matplotlib.pyplot as plt
 import seaborn as sns
-from welly import read_las
+
 import welly
 from scipy.optimize import curve_fit
 import statsmodels.api as sm
@@ -15,7 +15,7 @@ from sklearn.metrics import mean_squared_error
 import lightgbm as lgb
 from sklearn.ensemble import HistGradientBoostingRegressor
 from welly import Well
-
+from welly import read_las
 # Sidebar
 st.sidebar.image("logo SPE.jpg")
 st.sidebar.title("**⚒️Main Menu⚒️**")
