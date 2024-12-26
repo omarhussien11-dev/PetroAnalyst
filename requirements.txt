@@ -10,3 +10,4 @@ statsmodels
 streamlit
 welly
 setuptools
+openpyxl
