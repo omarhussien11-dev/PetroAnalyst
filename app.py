@@ -345,7 +345,7 @@ elif section == "Decline Curve Analysis":
     hyperbolic_model = st.sidebar.checkbox("Hyperbolic Model")
     ultimate_recovery = st.sidebar.checkbox("Ultimate Recovery")
     uploaded_file = st.file_uploader("Upload a XLSX File:", type=[".xlsx"])
-    if uploaded_file:
+    if uploaded_file is not None:
         df = pd.read_excel(uploaded_file)
         df = df[df['WELL_BORE_CODE'] == 'NO 15/9-F-14 H']
         df = df.drop('BORE_WI_VOL', axis=1)
