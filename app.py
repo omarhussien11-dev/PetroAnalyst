@@ -7,7 +7,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from welly import Well
 from welly import read_las
-from glob import glob
 import welly
 from scipy.optimize import curve_fit
 import statsmodels.api as sm
